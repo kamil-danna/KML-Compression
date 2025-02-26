@@ -1,2 +1,2 @@
 # KML-Compression
-An image compression algorithm
+An image compression algorithm.

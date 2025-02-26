@@ -1,0 +1,70 @@
+# 🐍 Esclude l'ambiente virtuale
+venv/
+env/
+.kml_env/
+.kml_env*/
+
+# ⏳ Esclude file di cache di Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🛠️ Esclude dipendenze installate localmente
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🖥️ Esclude eseguibili e file binari
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# 🔧 Esclude file di log e debug
+*.log
+*.out
+*.err
+*.pid
+*.swp
+*.swo
+
+# ⚙️ Esclude impostazioni di editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 🛑 Esclude file di test e di sviluppo
+.coverage
+.tox/
+nosetests.xml
+test-results/
+
+# 🚀 Esclude file generati da build
+build/
+dist/
+*.egg-info/
+MANIFEST
+
+# 🔑 Esclude file di credenziali o configurazioni locali
+*.env
+.env.local
+.envrc
+*.ini
+*.cfg
+secrets.json
+
+# 📦 Esclude pacchetti e librerie scaricate
+__pypackages__/
+node_modules/
+
+# 📚 Esclude documentazione generata
+docs/_build/
+*.rst~
+
+# 🔄 Esclude file temporanei
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
